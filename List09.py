@@ -6,3 +6,9 @@ def main(list1):
     Returns:
         bool: return answer
     """
+    a=list1[0]
+    for i in list1 :
+        if i!=a:
+            return False
+    return True
+
