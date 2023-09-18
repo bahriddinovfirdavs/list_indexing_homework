@@ -11,4 +11,6 @@ def main(list_num):
         return a[0]
     if a[0]<a[-1]:
         return a[-1]
-print(main([8,2,3,4,5,6,7]))
+    if a[0]==a[-1]:
+        return a[0] or a[-1]
+
