@@ -1,3 +1,6 @@
+import re
+
+
 def main(list1):
     """
     A list of units and zeros with a length of five is given. Replace one with True.
@@ -6,4 +9,10 @@ def main(list1):
     Returns:
         list: return answer
     """
-    
+    a=[]
+    for i in list1:
+        if i==1:
+            a+=[True]
+        else:
+            a+=[0]
+    return a
